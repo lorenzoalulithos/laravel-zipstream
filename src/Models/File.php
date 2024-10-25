@@ -25,7 +25,7 @@ abstract class File implements FileContract
 
     protected array $options = [];
 
-    protected int $filesize;
+    protected int $filesize = 0;
 
     protected StreamInterface $readStream;
 
